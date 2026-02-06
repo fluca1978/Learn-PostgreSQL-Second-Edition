@@ -73,7 +73,7 @@ else
 fi
 
 # now start the container
-DOCKER_CONTAINER_NAME="${DOCKER_IMAGE_TO_RUN}-learn_postgresql-1"
+DOCKER_CONTAINER_NAME="${DOCKER_IMAGE_TO_RUN}_learn_postgresql_1"
 $SUDO $DOCKER_COMPOSE up -d --remove-orphans
 
 # now build the container
